@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="therisingthumbs.banking.ManageAccount" >
+    <item android:id="@+id/delete_Accont"
+        android:title="Delete Account"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

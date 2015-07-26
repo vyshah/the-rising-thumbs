@@ -1,0 +1,53 @@
+# Built application files
+*.apk
+# Built application files
+/*/build/
+build/intermediates/model_data.bin
+ 
+# Crashlytics configuations
+com_crashlytics_export_strings.xml
+ 
+# Local configuration file (sdk path, etc)
+local.properties
+ 
+# Gradle generated files
+.gradle/
+ 
+# Signing files
+.signing/
+ 
+# User-specific configurations
+.idea/libraries/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/.name
+.idea/compiler.xml
+.idea/copyright/profiles_settings.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/vcs.xml
+*.iml
+ 
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ignore temp vim files
+*.swp
+*.swo
+.gitignore~
+
+# ignore Parse files
+app/libs/Parse-1.7.1-javadoc/
+app/libs/Parse-1.7.1.*
+app/libs/third_party_licenses.txt
+app/libs/bolts-android-1.1.3.jar
+app/libs/bolts-android-1.1.3.jar.properties
+

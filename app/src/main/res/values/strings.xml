@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Banking</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="title_activity_log_in">LogIn</string>
+    <string name="title_activity_sign_up">SignUp</string>
+
+    <!-- EditText field hints -->
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="pass_confirm">Confirm Password</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_create_account">Create an Account</string>
+    <string name="phone">Phone (e.g. 123-456-7890)</string>
+    <string name="address">Address</string>
+    <string name="title_activity_welcome">Welcome</string>
+
+    <!-- Create Account spinner list -->
+    <string-array name="create_spinner">
+        <item>Checking</item>
+        <item>Savings</item>
+    </string-array>
+
+    <string name="title_activity_manage_account">ManageAccount</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

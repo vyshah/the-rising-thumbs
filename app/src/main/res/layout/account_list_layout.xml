@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+
+    tools:context="therisingthumbs.banking.HomePage"
+    tools:ignore="MergeRootFrame">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/accountEmail"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/accountTitle"
+        android:layout_below="@id/accountEmail"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:id="@+id/accountType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accountTitle"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical|right"
+        android:layout_centerInParent="true"
+        android:id="@+id/accountBalance"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+
+
+</RelativeLayout>

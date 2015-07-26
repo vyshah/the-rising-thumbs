@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="therisingthumbs.banking.splashScreen" >
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:text="\nThe Rising Thumbs Bank"
+            android:id="@+id/splashTest"
+            android:layout_gravity="center_horizontal"
+            android:textSize = "24dp" />
+
+        <ImageView
+            android:id="@+id/splashscreen" android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/splash" />
+
+    </LinearLayout>
+

@@ -1,0 +1,107 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/custom_background"
+    tools:context="therisingthumbs.banking.ManageAccount$PlaceholderFragment">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/scrollTrans"
+        >
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#1947A3"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:text="Transfer"
+                android:id="@+id/transferText"
+                android:layout_centerHorizontal="true"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/transferText"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:id="@+id/accountHolder"
+                android:layout_centerHorizontal="true"
+                android:hint="Account Holders Email"
+
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/accountHolder"
+                android:layout_alignLeft="@id/accountHolder"
+                android:id="@+id/accountToTransfer"
+                android:hint="Account Title"
+
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:ems="10"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/accountToTransfer"
+                android:layout_alignLeft="@id/accountHolder"
+                android:id="@+id/amountToTransfer"
+                android:hint="MONEY"
+                android:inputType="numberDecimal"
+
+                />
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_style"
+                android:layout_below="@id/amountToTransfer"
+                android:layout_marginTop="15dp"
+                android:layout_alignRight="@id/amountToTransfer"
+                android:textAlignment="center"
+                android:text="Transfer Money"
+                android:id="@+id/transferMoney"
+
+                />
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_style"
+                android:layout_below="@id/amountToTransfer"
+                android:layout_marginTop="15dp"
+                android:layout_alignLeft="@id/amountToTransfer"
+                android:textAlignment="center"
+                android:text="Cancel"
+                android:id="@+id/cancelTrans"
+
+                />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
